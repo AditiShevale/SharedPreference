@@ -10,7 +10,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity implements SharedPreferences.OnSharedPreferenceChangeListener {
+public class MainActivity extends AppCompatActivity implements
+        SharedPreferences.OnSharedPreferenceChangeListener {
     TextView txt;
 
     @Override
@@ -56,9 +57,9 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
 
     void show(boolean str) {
         if ((str)){
-            txt.setText(View.VISIBLE);
+            txt.setVisibility(View.VISIBLE);
         }else {
-            txt.setText(View.INVISIBLE);
+            txt.setVisibility(View.INVISIBLE);
         }
 
     }
