@@ -15,7 +15,7 @@ import android.widget.TextView;
  */
 public class PreferenceFrag extends PreferenceFragmentCompat {
 
-
+//sedhfgj
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.xml);
