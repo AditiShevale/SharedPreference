@@ -19,5 +19,9 @@ public class PreferenceFrag extends PreferenceFragmentCompat {
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.xml);
+//        zmhdgsdhjfcbsyhdfeg
+//        kxjfhvduifhvdsuzjh
+//        ikjuhfvughdfrguhsr
+
     }
 }
